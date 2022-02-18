@@ -1,6 +1,7 @@
 body{
-    background-image: url("Icons and Images/Background Igmage.jpeg");
+    background-image: url("Icons and Images/Blur 4px.jpg");
     background-repeat: no-repeat;
+    /* backdrop-filter: blur(8px); */
     background-color: rgb(215, 250, 241);
     background-position: center;
     background-attachment: fixed;
@@ -8,8 +9,17 @@ body{
     -moz-background-size: cover;
     -webkit-background-size: cover;
 }
+a{
+    text-decoration: none;
+    color: black;
+    /* margin: 10px; */ 
+}
+.Except_Login-Signup{
+    margin: 10px;
+}
 nav{
     margin-bottom: 5%;
+    text-align: right;
 }
 input[type="text"]{
     margin-top: 4%;
@@ -28,10 +38,28 @@ input::-webkit-input-placeholder {
 .Quote{
     font-family: 'Charm', cursive;
     font-size:xx-large;
-    margin-left: 3%;
+    margin-left: 13%;
     line-height: 5%;
 }
 
+.Button{
+    /* display: block; */
+    margin: 5px;
+    width:fit-content;
+    height:fit-content;
+    background: black;
+    padding: 3px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    
+    line-height: 15px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
 
 /* .navbar .navbar-nav .nav-link {
     color: #000000;
