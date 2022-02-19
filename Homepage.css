@@ -42,7 +42,7 @@ input,input::-webkit-input-placeholder {
     /* font-family: 'Charm', cursive; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic ;
-    font-size:xx-large;
+    font-size:35px;
     margin-left: 13%;
     line-height: 5%;
     font-weight:lighter;
@@ -50,13 +50,13 @@ input,input::-webkit-input-placeholder {
 
 .Button{
     /* display: block; */
-    margin: 5px;
-    width:fit-content;
-    height:fit-content;
+    margin: 6px;
+    width:6px;
+    height:6px;
     background: black;
-    padding: 3px;
+    padding: 5px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
     
     line-height: 15px;
@@ -69,5 +69,15 @@ li{
 
 .Search_Button{
     border: none;
+    padding: none;
+    margin: none;
     size: 2%;
+    background: none;
+font-size: 30rem;
+}
+
+.ImageLogo{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 0%;
 }
