@@ -1,0 +1,83 @@
+body{
+    background-repeat: no-repeat;
+    /* backdrop-filter: blur(8px); */
+    background-color: rgb(215, 250, 241);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+nav{
+    margin-bottom: 5%;
+    text-align: right;
+    text-decoration-color: black;
+    padding-bottom: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.Except_Login-Signup{
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    /* margin: 10px; */ 
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.Button{
+    /* display: block; */
+    margin: 6px;
+    width:6px;
+    height:6px;
+    background: black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    line-height: 15px;
+}
+
+.Box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    /* display:table; */
+}
+
+.Box1,.Box2,.Box3{
+    /* display: table-cell; */
+    background-color: rgba(0, 0, 0, 0.596);
+    height: 330px;
+    border-radius: 25px;
+    width: 30%;
+}
+
+.Footer_contents{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.699);
+    height: 5%;
+    width: 100vw;
+    padding-top: 40px;
+}
+
+.Hospital_info{
+    text-align: center;
+    text-decoration: aliceblue;
+}
+.Hospital_beds{
+
+}
