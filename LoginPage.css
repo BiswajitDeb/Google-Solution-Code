@@ -1,0 +1,64 @@
+body{
+    background-repeat: no-repeat;
+    /* backdrop-filter: blur(8px); */
+    background-color: rgb(215, 250, 241);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+nav{
+    margin-bottom: 5%;
+    text-align: right;
+    text-decoration-color: black;
+    padding-bottom: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.Except_Login-Signup{
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    /* margin: 10px; */ 
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.Button{
+    /* display: block; */
+    margin: 6px;
+    width:6px;
+    height:6px;
+    background: black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    line-height: 15px;
+}
+
+.Blue_Div{
+    align-items: center;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 18px;
+    height: 400px;
+    margin-left: 30%;
+    margin-right: 30%;
+    align-self: center;
+    background-color: rgba(2, 214, 214, 0.356);
+}
+.Log-Buttons{
+    border-radius: 15px;
+    list-style: none;              
+    display: list-item;
+}
