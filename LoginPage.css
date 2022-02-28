@@ -47,18 +47,53 @@ li{
 }
 
 .Blue_Div{
+    /* padding-right: 40px;
+    padding-left: 40px; */
+    margin: auto;
     align-items: center;
     padding-top: 10px;
     text-align: center;
-    border-radius: 18px;
-    height: 400px;
-    margin-left: 30%;
-    margin-right: 30%;
+    border-radius: 40px;
+    height: 515px;
+    width: 545px;
+    /* margin-left: 33%;
+    margin-right: 33%; */
     align-self: center;
     background-color: rgba(2, 214, 214, 0.356);
 }
-.Log-Buttons{
+.Icons{
+    position: relative;
+    top: 11px;
+    height: 30px;
+    width: 30px;
+}
+.Log_Buttons{
+    left: 15px;
+    right: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 400px;
     border-radius: 15px;
     list-style: none;              
-    display: list-item;
+    /* display :flex; */
+    /* justify-content:left; */
+    padding-inline-start: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+    text-align:left;
+    background: rgba(255, 255, 255, 0.842);
+}
+.icons_text{
+    margin-left: 18%;
+    position: relative;
+    margin-top: 0;
+}
+.List_padding{
+    padding: 0px;
+}
+.sign_heading{
+    margin-bottom: 8%;
+}
+.sign_heading:first-child{
+    padding-top: 4%;
 }
